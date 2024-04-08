@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividade</title>
+    <title>Exercicio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>Exercicio 1</h1>
-  <p>Insira os valores de n e k para calcular C(n,k):</p>
+  <p>Digite os numeros de n e k para calcular C(n,k):</p>
   <input type="number" id="nInput" placeholder="n">
   <input type="number" id="kInput" placeholder="k">
   <button onclick="calcularCombinação()">Calcular</button>
@@ -17,14 +17,14 @@
 
   <h1>Exercicio 2</h1>
   <input type="text" id="messageField" value=""><br>
-  <button onclick="startScroll()">Iniciar</button>
-  <button onclick="stopScroll()">Parar</button>
+  <button onclick="startScroll()">começar</button>
+  <button onclick="stopScroll()">finalizar</button>
 
   <h1>Exercicio 3</h1>
-  <label for="originalTextarea">Texto Original:</label><br>
+  <label for="originalTextarea">Original:</label><br>
   <textarea id="originalTextarea" rows="4" cols="50"></textarea><br><br>
   <button onclick="inverterTexto()">Inverter</button><br><br>
-  <label for="invertedTextarea">Texto Invertido:</label><br>
+  <label for="invertedTextarea">Invertido:</label><br>
   <textarea id="invertedTextarea" rows="4" cols="50" readonly></textarea>
 
    <h1>Exercicio 4</h1>
@@ -66,13 +66,13 @@
 
 
   <h1>Exercicio 5 a)</h1>
-      <input type="text" id="dateInput" placeholder="Insira a data ( dd/mm/aaaa)">
+      <input type="text" id="dateInput" placeholder="insira a data ( dd/mm/aaaa)">
       <button onclick="countDays()">Calcular</button>
       <div id="result"></div>
 
 
     <h1>Exercicio 5 b)</h1>
-    <p>A cor é: <span id="bgColor"></span></p>
+    <p>A cor será: <span id="bgColor"></span></p>
 
   <script src="script.js"></script>
 </body>
